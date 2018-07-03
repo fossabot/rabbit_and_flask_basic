@@ -1,4 +1,6 @@
 # Local development (bash required)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffbgameresearch%2Frabbit_and_flask_basic.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffbgameresearch%2Frabbit_and_flask_basic?ref=badge_shield)
+
 
 ##### Above system serves as a central server for gathering data sent via AMQP. Server is built on docker-compose, and a external client that produces data to the server is dockerized as well.
 
@@ -64,3 +66,7 @@ Use `rabbit`, etc. instead of web for other services logs.
 - rabbit *15672* and *5672*
 - redis *6379*
 - flask api *5000*
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffbgameresearch%2Frabbit_and_flask_basic.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffbgameresearch%2Frabbit_and_flask_basic?ref=badge_large)
